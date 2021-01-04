@@ -16,7 +16,7 @@ node ('master') {
       app.push("latest")
         }*/
       }
-  stage('Pull-image-server')
+  stage('Pull-image-server') {
   sh 'echo pull image-server'
      /* sh "docker-compose down"
       sh "docker-compose up -d" */
